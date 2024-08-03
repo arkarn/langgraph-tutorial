@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "langgraph-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Ashish Ranjan Karn <ark.iitkgp@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "*"
+langsmith = "^0.1.96"
+langchain-anthropic = "^0.1.22"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.1.20"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
